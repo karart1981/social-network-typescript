@@ -1,0 +1,439 @@
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+  }
+  
+  .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+  } 
+
+  nav {
+    display: flex;
+    gap: 20px;
+    background: black;
+    padding: 20px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    transition: 0.6s;
+  }
+
+  nav a:hover, nav button:hover {
+    color: purple
+  }
+
+  nav button {
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.6s;
+    margin-bottom: 10px;
+  }
+
+  a.active {
+    background: mediumorchid;
+    padding: 5px 10px;
+  }
+
+  .gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fbc2eb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1))
+    }
+
+    .settings {
+      display: flex;
+      justify-content: center;
+      height: 100vh
+  }
+  
+  .block {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 80px;
+  }
+  
+  .dashboard {
+    height: 100vh;
+  }
+
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: start;
+    position: relative;
+  }
+
+  .list img {
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    object-fit: cover;
+    border-radius: 1rem;
+  }
+
+  .list div {
+    background-color: rgb(221, 218, 218);
+    height: 280px;
+    padding: 15px;
+    border-radius: 1rem;
+  }
+
+  .search div {
+    height: 300px;
+  }
+
+  .isPrivacy {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 1rem;
+  }
+
+.posts, .followers, .following {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.list-posts {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.list-posts button {
+  margin-top: 15px;
+  width: 150px;
+}
+
+.list-posts h2 {
+  text-align: center;
+}
+
+.search {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.list-search {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  align-items: center;
+  gap: 20px;
+}
+
+.list-search h2{
+    text-align: center;
+}
+
+.list-search input {
+  width: 300px;
+}
+
+.account {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.list-account {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  align-items: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.account-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  gap: 40px;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 800px
+}
+
+.account-profile img {
+  border: 1px solid black;
+}
+
+.text-posts {
+  text-align: center;
+}
+
+.requests {
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  gap: 40px;
+}
+
+.block-requests {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  gap: 40px;
+}
+
+.list-request {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color: white;
+  padding: 20px;
+  width: 400px;
+  border-radius: 1rem;
+  justify-content: center;
+}
+
+
+
+.post {
+  display: flex;
+  position: relative;
+  width: 230px;
+  height: 200px;
+}
+
+.post-img {
+  position: absolute;
+  align-items: center;
+}
+
+.cover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 1s;
+}
+
+.post:hover .cover {
+  background-color: black;
+  opacity: 0.6;
+}
+
+.like-btn {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 5;
+  margin: auto;
+  opacity: 0;
+  transition: 1s;
+  cursor: pointer;
+} 
+
+.post:hover .like-btn {
+  opacity: 1;
+}
+
+.post p {
+  position: absolute;
+  left: 10;
+  bottom: 0;
+}
+
+.post strong {
+  position: absolute;
+  left: 5;
+  bottom: 13%;
+}
+
+.post-data-img {
+  width: 450px;
+  height: 400px;
+}
+
+.list-data-post {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+.list-data-post div {
+  background-color: gray;
+  padding: 10px;
+  border-radius: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.post-title {
+  position: absolute;
+  left: 5;
+  bottom: 160px;
+}
+
+.form-comment {
+  display: flex;
+  position: absolute;
+  left: 1;
+  bottom: 100px;
+  align-items: center;
+}
+
+.form-comment textarea {
+  width: 400px;
+  border-radius: 1rem;
+}
+
+.post button {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  width: 70px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(18, 143, 154);
+  color: white;
+}
+
+.post button:hover {
+  background-color: rgb(88, 176, 176);
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: gray;
+  position: absolute;
+  left: 1;
+  bottom: 10px;
+  width: 450px;
+  height: 80px;
+  overflow-y: scroll;
+  padding: 10px;
+}
+
+.list-comment {
+  background-color: rgb(180, 175, 175);
+  display: flex;
+  flex-direction: row;
+  border-radius: 2rem;
+  align-items: center;
+  gap: 10px;
+}
+
+.list-comment div p {
+  margin-bottom: 0px;
+}
+
+.list-comment div {
+  display: flex;
+  flex-direction: column;
+  height: 45px;
+}
+
+.list-comment button {
+  position: absolute;
+  right: 10px;
+  height: 45px;
+  border-radius: 2rem;
+}
+
+.list-comment img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.followers, .following {
+  height: 100vh;
+  display: flex;
+}
+
+.list-followers {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  align-items: center;
+  gap: 50px;
+}
+
+
+.list-followers img {
+  width: 200px;
+  height: 200px;
+  border-radius: 1rem;
+}
+
+.follower {
+  border-radius: 1rem;
+  padding: 10px;
+  background-color: rgb(217, 215, 215);
+  width: 220px;
+  height: 300px;
+}
+
+.block-followers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.pagination button {
+  margin-top: 50px;
+  width: 50px;
+  height: 40px;
+  border: none;
+  border-radius: 1rem;
+}
+
+.active {
+  background-color: gray;
+}
+
+.error {
+  border: 2px solid red;
+}
